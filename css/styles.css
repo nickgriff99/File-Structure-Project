@@ -3,7 +3,7 @@
   top: 0;
   right: 0;
   left: 0;
-  z-index: 500;
+  z-index: 10;
   transition: ease-in-out 0.3s;
 }
 
@@ -12,6 +12,11 @@
 }
 
 .navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.container {
   display: flex;
   align-items: center;
 }
@@ -36,9 +41,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 20%;
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
   padding: 4.6875rem 0;
+  height: 100vh;
+  margin-top: -4rem;
 }
 
 .bg-header::before {
