@@ -77,6 +77,10 @@
   color: var(--white);
 }
 
+.why-me {
+  padding: var(--size-150);
+}
+
 .why-me-wrapper {
   display: flex;
   align-items: center;
@@ -100,8 +104,8 @@
   font-family: "Hinds", sans-serif;
   font-weight: 600;
   color: var(--font-color-dark);
-  margin-top: var(--size-20);
-  margin-bottom: 0;
+  margin-top: 0.5rem;
+  margin-bottom: var(--size-20);
   line-height: 1.3;
 }
 
