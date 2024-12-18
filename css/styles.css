@@ -85,3 +85,23 @@
 .why-me-wrapper div {
   flex: 1;
 }
+
+.block-text {
+  padding-right: var(--size-50);
+}
+
+.block-text span {
+  color: var(--font-color-dark);
+  font-weight: 300;
+}
+
+.block-text h2 {
+  font-size: var(--size-40);
+  font-family: "Hinds", sans-serif;
+  font-weight: 600;
+  color: var(--font-color-dark);
+  margin-top: var(--size-20);
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+
